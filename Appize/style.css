@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: rgb(36,0,10);
+    background: radial-gradient(circle, rgba(36,0,10,1) 0%, rgba(121,9,86,1) 0%, rgba(255,0,95,1) 100%);
+    height: 680px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-logo-buttons{
+    width: 150rem;
+    background: radial-gradient(circle, rgb(126, 6, 40) 0%, rgb(167, 10, 75) 0%, rgba(255,0,95,1) 100%);
+    display: flex;
+    position: fixed;
+}
+
+.span-buttons{
+    font-size: 20px;
+    display: flex;
+    margin-left: 3rem;
+
+}
+
+.contact:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(126, 16, 34);
+}
+
+.features:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(126, 16, 34);
+}
+
+.price:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(126, 16, 34);
+}
+
+.why:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(126, 16, 34);
+}
+
+.testi:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(126, 16, 34);
+}
+
+.home:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgb(126, 16, 34);
+}
+
+.logo-header{
+    margin: 0.8rem 22rem;
+}
+
+.logo-header:hover{
+    cursor: pointer;
+}
+
+.home, .features, .why, .price, .testi, .contact{
+    font-family: 'Poppins', sans-serif;
+    background-color: none;
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+
+.main-home-page{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15rem;
+}
+
+.header-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+
+.pair-home-page{
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 300;
+}
+
+.explore{
+    background: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-weight: 100;
+    padding: 0.8rem 3.8rem;
+    border-radius: 0.6rem;
+    margin-top: 2.5rem;
+}
+
+.explore:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background: #FFF;
+    color: black;
+}
+
+.phone-image{
+    margin-top: 8rem;
+    margin-left: 13rem;
+}
+
+.h1-pra-baixo{
+    margin-left: 7rem;
+    margin-top: 14rem;
+}
+
+.main{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.h1-main{
+    font-size: 40px;
+    font-weight: 300;
+    color: #4d4f51;
+}
+
+.line{
+    margin-top: 0.5rem;
+    height: 2px;
+    width: 80px;
+    background: #E7344C;
+    margin-bottom: 0.7rem;
+}
+
+.pair-main{
+    color: #4d4f51;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10rem;
+    padding-right: 1.5rem;
+}
+
+.h1-phone, .h1-support, .h1-settings{
+    color: #4d4f51;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.pair-phone, .pair-support, .pair-settings{
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.image-phone{
+    margin-bottom: 0.5rem;
+    margin-left: 5rem;
+}
+
+.conteiner-support{
+    padding: 1rem;
+}
+
+.conteiner-settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.conteiner-support:hover{
+    box-shadow: 1px 1px 10px rgb(233, 233, 233);
+}
+
+.conteiner-phone:hover{
+    box-shadow: 1px 1px 10px rgb(233, 233, 233);
+}
+
+.conteiner-settings:hover{
+    box-shadow: 1px 1px 10px rgb(233, 233, 233);
+}
+
+.image-settings{
+    margin-bottom: 0.4rem;
+}
+
+.image-support{
+    margin-left: 6.5rem;
+}
+
+.conteiner-phone{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.advanced-features{
+    padding-top: 6rem;
+    background: #f1f2f3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-advanced-features{
+    color: #333435;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.line-02{
+    margin-top: 0.5rem;
+    height: 2px;
+    width: 90px;
+    background: #E7344C;
+    margin-bottom: 0.7rem;
+}
+
+.pair-advanced-features{
+    color: #333435;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.padlock, .eye, .settings, .rocket, .pen, .anchor{
+    padding: 0.6rem;
+    background:#C2187E;
+    border-radius: 0.7rem;
+}
+
+.padlock, .eye, .settings{
+    margin-left: 1rem;
+}
+
+
+.column-svgs{
+    background: #f1f2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 7rem;
+    padding-right: 4rem;
+}
+
+.coluna-direita{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.h1-anchor, .h1-pen, .h1-rocket{
+    font-family: sans-serif;
+    color: #333435;
+    font-size: 22px;
+}
+
+.conteiner-anchor{
+    margin-top: 3rem;
+}
+
+.conteiner-rocket, .conteiner-pen{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.conteiner-conteiner{
+    display: flex;
+}
+
+.pair-rocket, .pair-pen, .pair-anchor{
+    margin-left: 3.9rem;
+    color: #333435;
+    font-size: 16px;
+}
+
+.rocket, .pen, .anchor{
+    margin-right: 1rem;
+}
+
+.div-yey{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.pair-eye, .pair-padlock, .pair-setting-02{
+    color: #333435;
+    font-size: 16px;
+    text-align: end;
+    margin-right: 4rem;
+}
+
+
+.conteiner-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(36,0,10,1) 0%, rgba(121,9,86,1) 0%, rgba(255,0,95,1) 100%);
+    height: 500px;
+}
+
+.tittle-footer{
+    color:#FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 4.5rem;
+}
+
+.line-03{
+    background: #FFF;
+    height: 2px;
+    width: 80px;
+    margin-left: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: horizontal-tb;
+}
+
+.input-email{
+    padding: 1.3rem;
+    width: 31rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+    border: none;
+    background: #FFF;  
+}
+
+.subscribe-button{
+    margin-left: -178px;
+    background: none;
+    border:solid 1px black;
+    background-image: -webkit-linear-gradient(135deg, #E7344C, #C2187E, #E7344C);
+    padding: 0.9rem 3.5rem;
+    border-radius: 25px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.subscribe-button:hover{
+    background-image: -webkit-linear-gradient(135deg, #ec5468, #f031a3, #ad4e5b);
+    cursor: pointer;
+}
+
+.inline-icons-rede-social{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.twitter-icon, .facebook-icon, .linkedin-icon, .google-icon{
+    border: solid 1px #FFF;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.twitter-icon:hover{
+    background-image: -webkit-linear-gradient(135deg, #E7344C, #C2187E, #E7344C);
+    cursor: pointer;
+}
+
+.facebook-icon:hover{
+    background-image: -webkit-linear-gradient(135deg, #E7344C, #C2187E, #E7344C);
+    cursor: pointer;
+}
+
+.linkedin-icon:hover{
+    background-image: -webkit-linear-gradient(135deg, #E7344C, #C2187E, #E7344C);
+    cursor: pointer;
+}
+
+.google-icon:hover{
+    background-image: -webkit-linear-gradient(135deg, #E7344C, #C2187E, #E7344C);
+    cursor: pointer;
+}
+
+.end-footer{
+    margin-top: 1.5rem;
+}
+
+.pair-end-footer{
+    color: #FFF;
+    margin-left: 2rem;
+}
+
+.coluna-esquerda{
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+.span-settings-02, .span-eye, .span-padlock{
+    font-family: sans-serif;
+    color: #333435;
+    font-size: 22px;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.conteiner-conteiner-03{
+    margin-left: 8.3rem;
+}
+
+.conteiner-conteiner-04{
+    margin-left: 6rem;
+}
+
+.conteiner-settings-02{
+    margin-left: 5rem;
+}
+
+.div-padlock{
+    margin-bottom: 1rem;
+}
+
+.div-settings{
+    margin-top: 3rem;
+}
+
+
+
